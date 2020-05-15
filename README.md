@@ -85,6 +85,14 @@ Move to the plot2do folder. Replace `${mnase-chip-folder}` with the folder conta
 plot2do.sh -f ${mnase-chip-folder}/merge.txt
 ```
 
+For the top 10% most transcribed genes
+
+```
+seqtools intersect -s merge-filter.txt -a Top10percentTxbdGenes.txt
+cd ${plot2do-folder}
+plot2do.sh -f ${mnase-chip-folder}/merge-filter.txt
+```
+
 ### Identification of coordinates of +2 nucleosomes
 
 Those files are already supplied, but you can generate them again using the following instructions. 
