@@ -79,10 +79,10 @@ seqtools vap -s merge.txt --selection Top10percentTxbdGenes.txt
 
 ### Two dimensional plots
 
-Move to the plot2do folder. Replace `&{mnase-chip-folder}` with the folder containing the MNase-ChIP data.
+Move to the plot2do folder. Replace `${mnase-chip-folder}` with the folder containing the MNase-ChIP data.
 
 ```
-plot2do.sh -f &{mnase-chip-folder}/merge.txt
+plot2do.sh -f ${mnase-chip-folder}/merge.txt
 ```
 
 ### Identification of coordinates of +2 nucleosomes
