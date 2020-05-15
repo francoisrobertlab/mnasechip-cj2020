@@ -111,6 +111,8 @@ Generate Gaussian and double Gaussian fit images.
 
 ```
 split-dyad.sh -s merge.txt
+mnasetools prepgenomecov -s merge.txt
+genomecov-dyad.sh -s merge.txt
 dyadcoverage.sh -s merge.txt
 fitgaussian.sh -s merge.txt
 fitdoublegaussian.sh -s merge.txt
