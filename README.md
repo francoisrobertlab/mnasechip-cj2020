@@ -50,18 +50,6 @@ mnasetools prepgenomecov -s merge.txt
 seqtools genomecov -s merge.txt
 ```
 
-### Aggregate and heatmap profiles
-
-```
-seqtools vap -s merge.txt
-```
-
-For the top 10% most transcribed genes
-
-```
-seqtools vap -s merge.txt --selection Top10percentTxbdGenes.txt
-```
-
 ### Heatmaps of coverage over genes versus fragment size
 
 ```
