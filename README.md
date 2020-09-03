@@ -77,7 +77,7 @@ For the top 10% most transcribed genes
 seqtools vap -s merge.txt --selection Top10percentTxbdGenes.txt
 ```
 
-### Two dimensional plots
+### Two-dimensional occupancy (2DO) plots
 
 Move to the plot2do folder. Replace `${mnase-chip-folder}` with the folder containing the MNase-ChIP data.
 
