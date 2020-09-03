@@ -15,7 +15,7 @@ Install requirements :
 Install seqtools.
 
 ```
-pip install git+https://git@github.com/francoisrobertlab/seqtools.git
+pip install git+https://git@github.com/francoisrobertlab/seqtools.git@1.0
 ```
 
 Download the MNase-ChIP data from GEO archive *(link to be supplied later)*.
