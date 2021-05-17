@@ -14,17 +14,24 @@ Install requirements :
 
 Install seqtools.
 
-```
+```shell
 pip install git+https://git@github.com/francoisrobertlab/seqtools.git@1.0
+```
+
+Copy the `resources` and `script` folders in the same folder.
+
+```shell
+git clone https://github.com/francoisrobertlab/mnasechip-cj2020.git
+cp -r mnasechip-cj2020/resources/* .
+cp mnasechip-cj2020/scripts/* .
+rm -rf mnasechip-cj2020
 ```
 
 Download the MNase-ChIP data from GEO archive *(link to be supplied later)*.
 
-```
+```shell
 seqtools download
 ```
-
-Copy all files in the resources folder to the same folder as the MNase-ChIP data files.
 
 
 ## Method
